@@ -5,7 +5,6 @@ from sympy import*
 a = 1.0
 b = 5.0
 N = 1000; 
-h = (b-a)/N
 x = np.linspace(a,b,N)
 y=(x**5); 
 integral = 0.0

@@ -5,7 +5,6 @@ from sympy import*
 a = 0.0
 b = pi/2
 N = 1000; 
-h = (b-a)/N
 x = np.linspace(a,b,N)
 y=(sin(3*x))*(cos(x)); 
 integral = 0.0
