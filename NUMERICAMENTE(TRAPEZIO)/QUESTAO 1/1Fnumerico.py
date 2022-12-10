@@ -6,7 +6,7 @@ a = 1.0
 b = 4.0
 N = 1000
 x = np.linspace(a,b,N)
-y=(np.sin(3*x),(x,1,4)); 
+y=(np.sin(3*x)); 
 integral = 0.0
 for k in range(len(x) - 1):
     integral +=0.5*((x[k+1]-x[k])*(y[k+1]+y[k]))
