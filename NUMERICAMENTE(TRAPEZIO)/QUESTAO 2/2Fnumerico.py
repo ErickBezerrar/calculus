@@ -1,6 +1,5 @@
 import numpy as np
 import math
-from sympy import*
 
 a = 1.0
 b = 2.0
