@@ -5,7 +5,6 @@ a = 1.0
 b = 5.0
 N = 1000;
 
-
 x = np.linspace(a,b,N) #Array de 1000 elementos de 1 até 5
 print((len(x)))
 print(x)
