@@ -1,2 +1,2 @@
 # calculus 3
-Resolução da prova de cálculo da terceira unidade
+###Dedicated to solve integral with trapezoidal, rectangle and simpson method's
