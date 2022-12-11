@@ -32,7 +32,7 @@ x=10
 ax = plt.axes() 
 ax.set_facecolor("#490a3d") 
 plt.plot(lista_hora, lista_temperatura, color='#bd1550', label='TEMPERATURAS AO LONGO DO DIA',marker='o')
-plt.plot(x, valor, color='#f8ca00', label='MÉDIA DAS TEMPERATURAS', marker='x')
+plt.plot(x, valor, color='#f8ca00', label='MÉDIA DAS TEMPERATURAS', marker='X')
 plt.ylabel('Tem/Fahrenheit')
 plt.xlabel('Horas')
 plt.axis(ymin=50,ymax=120)
