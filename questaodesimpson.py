@@ -20,6 +20,10 @@ a = 9
 b = 16
 N = 8
 
+def simpson(f,a,b):
+    
+    return
+
 valor = metodo_trapezio(funcao, a, b, N)
 print(valor)
 lista_hora = [9, 10, 11, 12, 13, 14, 15, 16]
