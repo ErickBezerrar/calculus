@@ -18,4 +18,4 @@ sum = 0
 for i in range(len(vX) - 1):
     sum += ((vY[i] + vY[i + 1]) * h) / 2
 
-print("Solução = " + str(sum))
+print("Solução = " + str(sum)) 
