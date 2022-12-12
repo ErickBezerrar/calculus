@@ -1,5 +1,4 @@
 from math import *
-import numpy as np
 
 def f(x):
     funcao = (np.sin(x)**2)

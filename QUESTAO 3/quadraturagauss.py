@@ -1,5 +1,4 @@
 from math import *
-import numpy as np
 
 def f(x):
     funcao = sqrt(16-x**2)

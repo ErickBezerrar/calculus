@@ -1,5 +1,4 @@
 from math import *
-import numpy as np
 
 def f(x):
     funcao = ((4-x**2)**(1/2))
