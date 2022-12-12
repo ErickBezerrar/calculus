@@ -7,6 +7,7 @@ def f(x):
 
 def trapezio(f, a, b, n):
     h = (b - a) / n
+
     soma = 0
     for k in range(1, n):
         soma += f(a + k * h)
@@ -20,5 +21,3 @@ n = 4 #Número de subintervalos
 
 result = trapezio(f, a, b, n)
 print('Resultado numérico =', result)
-
-
