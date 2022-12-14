@@ -1,5 +1,3 @@
-from math import *
-
 def f(x):
     funcao = (x/(x**2+9)**(1/2))
     return funcao
@@ -15,7 +13,7 @@ def trapezio(f, a, b, n):
 
 a = 0
 b = 3
-n = 100 
+n = 1000 
 
 result = trapezio(f, a, b, n)
 print('Resultado numérico =', result)

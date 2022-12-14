@@ -15,7 +15,7 @@ def trapezio(f, a, b, n):
 
 a = 1
 b = 2
-n = 100 
+n = 1000
 
 result = trapezio(f, a, b, n)
 print('Resultado numérico =', result)

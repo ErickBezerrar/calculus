@@ -6,7 +6,6 @@ def f(x):
 
 def trapezio(f, a, b, n):
     h = (b - a) / n
-
     soma = 0
     for k in range(1, n):
         soma += f(a + k * h)
