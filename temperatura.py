@@ -3,10 +3,10 @@ import math
 import matplotlib.pyplot as plt
 
 lista_temperatura = [75.3, 77, 83.2, 84.8, 86.5, 86.4, 81.1, 78.6]
+lista_hora = [9, 10, 11, 12, 13, 14, 15, 16]
 
 def funcao(x):
-    funcao = x/8
-    return funcao
+    return x/8
 
 
 def metodo_trapezio(f,a, b, N):
@@ -26,7 +26,6 @@ def simpson(f,a,b):
 
 valor = metodo_trapezio(funcao, a, b, N)
 print(valor)
-lista_hora = [9, 10, 11, 12, 13, 14, 15, 16]
 
 x=10
 ax = plt.axes() 

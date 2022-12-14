@@ -15,7 +15,7 @@ def trapezio(f, a, b, n):
 
 a = 0
 b = 3.141592653/2
-n = 100 #Número de subintervalos
+n = 100 
 
 result = trapezio(f, a, b, n)
 print('Resultado numérico =', result)

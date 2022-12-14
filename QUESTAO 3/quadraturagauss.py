@@ -1,7 +1,7 @@
 from math import *
 
 def f(x):
-    funcao = sqrt(16-x**2)
+    funcao = sqrt(16-x**2)/4
     return funcao
 
 def trapezio(f, a, b, n):
